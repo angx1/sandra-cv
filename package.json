@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@astrojs/ts-plugin": "^1.10.2",
-    "astro": "^5.2.5",
+    "astro": "^5.7.10",
     "ninja-keys": "^1.2.2"
   },
   "devDependencies": {

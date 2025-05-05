@@ -1,310 +1,209 @@
 {
-  "lastUpdate":"10-02-2025",
+  "lastUpdate": "05-05-2025",
   "basics": {
-    "banner":"angel",
-    "name": "Angel Rodriguez Moran",
-    "label": "",
-    "image": "https://media.licdn.com/dms/image/v2/D4E03AQELtw9HqNOayA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718265328995?e=1744848000&v=beta&t=-LRCFEy3M3oMjnF9Bj57waW-bPWLHtw_WbCb53L9GSU",
-    "email": "angel.rodriguez3rm@gmail.com",
-    "phone": "+34 645 969 975",
-    "url": "https://a--hrm.com/",
-    "summary": "Highly motivated Software Engineer student passionate about building innovative and meaningful solutions. Pursuing personal and professional development, with strong work ethic and an entrepreneur mindset.",
-    
+    "banner": "sandra",
+    "name": "Sandra Rodríguez Morán",
+    "label": "Graduada en Contabilidad y Finanzas | Estudiante de Matemáticas Aplicadas y Computación",
+    "image": "https://media.licdn.com/dms/image/v2/D4D03AQGLR1EsK4koGg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728307638495?e=1752105600&v=beta&t=M1srCzDsGHRfzJhpWadmHgy2cy_toJdI9JSjdIMLL_w",
+    "email": "sandrarodriguezmoran9@gmail.com",
+    "phone": "+34 663 18 86 48",
+    "url": "",
+    "summary": "Graduada en Contabilidad y Finanzas y finalizando un segundo grado en Matemáticas Aplicadas y Computación. Interesada en Machine Learning, Inteligencia Artificial y Data Science. Capaz de adaptarse a diversos entornos laborales, con gran dedicación y esfuerzo por aprender continuamente.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "ES 28007",
+      "address": "",
+      "postalCode": "",
       "city": "Madrid",
-      "countryCode": "",
+      "countryCode": "ES",
       "region": "Spain"
     },
-    "profiles": [{
-      "network": "GitHub",
-      "username": "angx1",
-      "url": "https://github.com/angx1"
-    }, {
-      "network": "LinkedIn",
-      "username": "Angel Rodriguez Moran",
-      "url": "https://www.linkedin.com/in/%C3%A1ngel-rodr%C3%ADguez-mor%C3%A1n-274868301/"
-    }]
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Sandra Rodríguez Morán",
+        "url": "https://www.linkedin.com/in/sandra-rodr%C3%ADguez-mor%C3%A1n-2bb72b1b1/"
+      }
+    ]
   },
-  "work": [{
-    "name": "Banco de España",
-    "position": "Data Engineer Intern",
-    "url": "https://www.bde.es/wbe/es/",
-    "startDate": "2024-11-01",
-    "endDate": "2025-04-01",
-    "location": "Spain",
-    "summary": "Worked on a news analysis tool by implementing a data processing pipeline. Applied NLP and Latent Dirichlet Allocation (LDA) to extract key topics from news articles, providing valuable insights for the Operational Risk Department",
-    "highlights": [
-      
-    ]
-  },{
-    "name": "Rein Medical",
-    "position": "Intern Technitian",
-    "url": "https://reinmedical.com/en",
-    "startDate": "2022-01-01",
-    "endDate": "2024-01-01",
-    "location": "Spain",
-    "summary": "Bringed support on the repair and maintenance of medical IT equipment. As well as installation and configuration of new equipment in hospitals.",
-    "highlights": [
-      
-    ]
-  }],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "Universidad Politecnica de Madrid",
-    "url": "",
-    "area": "",
-    "studyType": "Software Engineering Degree",
-    "startDate": "2021-09-01",
-    "endDate": null,
-    "score": "",
-    "description": "",
-    "location":"Madrid, Spain",
-    "courses": [
-      
-    ]
-  },{
-    "institution": "Colegio Santa Maria del Pilar",
-    "url": "",
-    "area": "",
-    "studyType": "Spanish Baccalaureate, Science and Technology",
-    "startDate": "2019-09-01",
-    "endDate": "2021-05-01",
-    "score": "",
-    "description": "",
-    "location":"Madrid, Spain",
-    "courses": [
-      
-    ]
-  },{
-    "institution": "CoderDojo Medialab Prado",
-    "url": "",
-    "area": "",
-    "studyType": "Computer Science and Programming Learning Program",
-    "startDate": "2013-02-01",
-    "endDate": "2017-06-01",
-    "score": "",
-    "description": "",
-    "location":"Madrid, Spain",
-    "courses": []
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
+  "work": [
+    {
+      "name": "Banco de España",
+      "position": "Intern - Departamento de Modelización Macroeconómica",
+      "url": "https://www.bde.es/wbe/es/",
+      "startDate": "2025-01-01",
+      "endDate": "2025-04-01",
+      "location": "Madrid, España",
+      "summary": "Prácticas en el área de modelización macroeconómica. Apliqué técnicas de topic modeling (LDA, guidedLDA), búsqueda semántica con embeddings de OpenAI, y análisis de noticias con LLMs en entornos híbridos.",
+      "highlights": [
+        "Uso de Azure AI Forge para flujos de búsqueda semántica",
+        "Configuración y prueba de modelos avanzados de ML local y en la nube"
+      ]
+    },
+    {
+      "name": "Rein Medical System",
+      "position": "Data Scientist Intern",
+      "url": "https://reinmedical.com/en",
+      "startDate": "2024-07-01",
+      "endDate": "2024-08-31",
+      "location": "Madrid, España",
+      "summary": "Migración de datos de Access a SQL y creación de reportes en Power BI.",
+      "highlights": [
+        "Implementación de base de datos SQL",
+        "Automatización de reportes en Power BI"
+      ]
+    },
+    {
+      "name": "Rein Medical System",
+      "position": "Analista de Gestión Financiera y Contable",
+      "url": "https://reinmedical.com/en",
+      "startDate": "2021-10-01",
+      "endDate": "2024-06-30",
+      "location": "Madrid, España",
+      "summary": "Encargada de reportes financieros, inventario y mantenimiento de base de datos de productos.",
+      "highlights": [
+        "Coordinación de reportes financieros mensuales para sede en Alemania",
+        "Gestión del inventario y productos"
+      ]
+    },
+    {
+      "name": "Management Solutions",
+      "position": "Intern - Control Interno",
+      "url": "https://www.managementsolutions.com",
+      "startDate": "2019-01-01",
+      "endDate": "2019-12-31",
+      "location": "Madrid, España",
+      "summary": "Elaboración de informes, análisis de facturación y soporte en controles internos.",
+      "highlights": [
+        "Informes para alta dirección",
+        "Implantación de controles internos"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Carlos III de Madrid",
+      "url": "",
+      "area": "Matemáticas Aplicadas y Computación",
+      "studyType": "Grado en Matemáticas Aplicadas y Computación",
+      "startDate": "2021-09-01",
+      "endDate": null,
+      "location": "Madrid, España"
+    },
+    {
+      "institution": "UNED",
+      "url": "",
+      "area": "Matemáticas",
+      "studyType": "Grado en Matemáticas",
+      "startDate": "2020-10-01",
+      "endDate": "2021-06-01",
+      "location": "Madrid, España"
+    },
+    {
+      "institution": "Saxion University of Applied Sciences",
+      "url": "",
+      "area": "International Finance & Accounting (ERASMUS+)",
+      "studyType": "International Finance & Accounting (ERASMUS+)",
+      "startDate": "2018-07-01",
+      "endDate": "2019-02-01",
+      "location": "Enschede, Países Bajos"
+    },
+    {
+      "institution": "Universidad Rey Juan Carlos",
+      "url": "",
+      "area": "Contabilidad y Finanzas",
+      "studyType": "Grado en Contabilidad y Finanzas",
+      "startDate": "2015-09-01",
+      "endDate": "2020-07-01",
+      "location": "Madrid, España",
+      "description": "Trabajo Fin de Grado: Una aproximación a la sostenibilidad de la prestación farmacéutica en España (2000-2020)"
+    }
+  ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
-    },
-    {
-      "name": "Git",
-      "level": "Advanced",
-      "keywords": [
-        "Version Control",
-        "GitHub",
-        "GitLab",
-        "Branching"
-      ]
-    },
-    {
-      "name": "Product Design",
-      "level": "Intermediate",
-      "keywords": [
-        "User Experience",
-        "Wireframes",
-        "Prototyping",
-        "Figma"
-      ]
-    },{
-      "name": "Communication",
-      "level": "Advanced",
-      "keywords": [
-        "Public Speaking",
-        "Active Listening",
-        "Presentation Skills",
-        "Conflict Resolution",
-        "Team Collaboration"
-      ]
-    },
-    {
-      "name": "Agile Methodologies",
-      "level": "Advanced",
-      "keywords": [
-        "Scrum",
-        "Kanban",
-        "Sprint Planning",
-        "Continuous Delivery"
-      ]
-    },
-    {
       "name": "Python",
-      "level": "Advanced",
-      "keywords": [
-        "Scripting",
-        "Automation",
-        "Django",
-        "Flask"
-      ]
+      "level": "Avanzado",
+      "keywords": ["Python"]
     },
     {
-      "name": "LangChain",
-      "level": "Beginner",
-      "keywords": [
-        "AI Integration",
-        "LLMs",
-        "Python APIs",
-        "Automation"
-      ]
-    },{
-      "name": "SwiftUI",
-      "level": "Beginner",
-      "keywords": [
-        "AI Integration",
-        "LLMs",
-        "Python APIs",
-        "Automation"
-      ]
+      "name": "C++",
+      "level": "Avanzado",
+      "keywords": ["C++"]
     },
     {
-      "name": "Rust",
-      "level": "Intermediate",
-      "keywords": [
-        "Memory Safety",
-        "Concurrency",
-        "Systems Programming"
-      ]
+      "name": "C",
+      "level": "Avanzado",
+      "keywords": ["C"]
     },
     {
-      "name": "C/C++",
-      "level": "Advanced",
-      "keywords": [
-        "C",
-        "C++",
-        "Pointers",
-        "Memory Management",
-        "Data Structures"
-      ]
-    },
-    {
-      "name": "Java",
-      "level": "Advanced",
-      "keywords": [
-        "OOP",
-        "Spring",
-        "JVM",
-        "Multithreading"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Advanced",
-      "keywords": [
-        "React.js",
-        "Components",
-        "Hooks",
-        "JSX"
-      ]
-    },
-    {
-      "name": "Astro",
-      "level": "Intermediate",
-      "keywords": [
-        "Astro Framework",
-        "Static Site Generation",
-        "React Integration"
-      ]
-    },
-    {
-      "name": "Solidity",
-      "level": "Intermediate",
-      "keywords": [
-        "Smart Contracts",
-        "Blockchain",
-        "Ethereum",
-        "DApps"
-      ]
-    },{
       "name": "SQL",
-      "level": "Intermediate",
-      "keywords": [
-        
-      ]
-      },{
-      "name": "Vector Databases",
-      "level": "Intermediate",
-      "keywords": [
-        
-      ]
-      }
-    ],
-    "languages": [{
-      "language": "Spanish",
-      "fluency": "Native speaker"
-      },{
-        "language": "English",
-        "fluency": "C1 Level"
-        }],
-      "interests": [{
-        "name": "Wildlife",
-        "keywords": [
-          "Ferrets",
-          "Unicorns"
-        ]
-        }],
-        "references": [{
-          "name": "Jane Doe",
-          "reference": "Reference…"
-          }],
-        "projects": [{
-            "name": "BioMad",
-            "isActive": true,
-            "startDate": "",
-            "endDate": "",
-    "description": "StartUp that aimed to provide circular solutions for organic waste based on bioplastics.",
-    "highlights": [
-      "Won Second Award at Madrid Telefónica's 2024 Hackaton"
-    ],
-    "url": "https://m.youtube.com/watch?v=5g9gIKanliA&ab_channel=javiprl"
-  },{
-    "name": "Menura",
-    "isActive": true,
-    "startDate": "",
-    "endDate": "",
-    "description": "AI powered study companion device that records, transcribes and summarizes lectures and meetings.",
-    "highlights": [
-    ],
-    "url": "https://github.com/msiciliag/menura.git"
-  }]
+      "level": "Avanzado",
+      "keywords": ["SQL"]
+    },
+    {
+      "name": "MATLAB",
+      "level": "Avanzado",
+      "keywords": ["MATLAB"]
+    },
+    {
+      "name": "RStudio",
+      "level": "Avanzado",
+      "keywords": ["RStudio"]
+    },
+    {
+      "name": "Power BI",
+      "level": "Intermedio",
+      "keywords": ["Power BI"]
+    },
+    {
+      "name": "Topic Modeling",
+      "level": "Intermedio",
+      "keywords": ["Topic Modeling"]
+    },
+    {
+      "name": "LDA",
+      "level": "Intermedio",
+      "keywords": ["LDA"]
+    },
+    {
+      "name": "guidedLDA",
+      "level": "Intermedio",
+      "keywords": ["guidedLDA"]
+    },
+    {
+      "name": "LLMs",
+      "level": "Intermedio",
+      "keywords": ["LLMs"]
+    },
+    {
+      "name": "Embeddings",
+      "level": "Intermedio",
+      "keywords": ["Embeddings"]
+    },
+    {
+      "name": "Azure AI Forge",
+      "level": "Intermedio",
+      "keywords": ["Azure AI Forge"]
+    },
+    {
+      "name": "Local/Nube ML deployment",
+      "level": "Intermedio",
+      "keywords": ["Local/Nube ML deployment"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "B2 - Cambridge First Certificate (2017)"
+    }
+  ],
+  "certificates": [],
+  "projects": [],
+  "volunteer": [],
+  "awards": [],
+  "publications": [],
+  "interests": [],
+  "references": []
 }
