@@ -1,0 +1,48 @@
+---
+import { lastUpdate } from "@cv";
+---
+
+<div class="ticker-wrapper no-print">
+  <div class="ticker">
+    <span class="ticker-item">Last update: {lastUpdate}</span>
+  </div>
+</div>
+
+<style>
+  .ticker-wrapper {
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(255, 60, 0);
+    padding: 0.5rem 0;
+    color: white;
+    position: fixed;
+    font-size: 0.8rem;
+  }
+
+  .ticker {
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 100%;
+    animation: ticker 15s linear infinite;
+  }
+
+  .ticker-item {
+    display: inline-block;
+    padding: 0 1rem;
+  }
+
+  @keyframes ticker {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+
+  @media print {
+    .no-print {
+      display: none;
+    }
+  }
+</style>

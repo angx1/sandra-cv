@@ -1,0 +1,21 @@
+{
+  "name": "a-cv",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "deploy": "gh-pages -d dist",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/ts-plugin": "^1.10.2",
+    "astro": "^5.2.5",
+    "ninja-keys": "^1.2.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}

@@ -1,0 +1,141 @@
+---
+import { basics } from "@cv";
+import { imageConfig } from "astro:assets";
+import Section from "@/components/Section.astro";
+import Mail from "@/icons/Mail.astro";
+import LinkedIn from "@/icons/LinkedIn.astro";
+import GitHub from "@/icons/GitHub.astro";
+import WorldMap from "@/icons/WorldMap.astro";
+
+const { name, label, location, image, profiles, phone, email } = basics;
+const { city, region } = location;
+
+const SOCIAL_ICONS: Record<string, any> = {
+  LinkedIn,
+  GitHub,
+};
+---
+
+<Section>
+  <div class="container">
+    <div class="info">
+      <h3>{name}</h3>
+      <h4>{label}</h4>
+      <span>
+        <WorldMap />
+        {city}, {region}
+      </span>
+      <a href={`mailto:${email}`}><span class="mail">{email}</span></a>
+      <p>{phone}</p>
+
+      <footer class="no-print">
+        {
+          profiles.map(({ network, url, username }) => {
+            const Icon = SOCIAL_ICONS[network];
+            return (
+              <a href={url} target="_blank" rel="noopener noreferrer">
+                <Icon />
+              </a>
+            );
+          })
+        }
+      </footer>
+    </div>
+    <figure>
+      <img src={image} alt={name} />
+    </figure>
+  </div>
+</Section>
+
+<style>
+  .mail {
+    text-decoration: underline;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+  h4 {
+    color: #666;
+    font-family: Menlo, monospace;
+    font-weight: 500;
+    font-size: 0.8rem;
+    text-wrap: balance;
+  }
+
+  img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    width: 128px;
+    border-radius: 16px;
+  }
+
+  span {
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.85rem;
+    letter-spacing: -0.05rem;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-right: 32px;
+    flex: 1;
+    max-width: calc(100% - 160px); /* Adjust based on your image width */
+  }
+
+  footer {
+    display: flex;
+    gap: 4px;
+    margin-top: 8px;
+  }
+
+  footer a {
+    color: #777;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+    padding: 4px;
+    height: 32px;
+    width: 32px;
+    border-radius: 6px;
+    transition: all 0.3x ease;
+  }
+
+  footer a:hover {
+    background: #eee;
+    border: 1px solid #ddd;
+  }
+
+  @media screen and (max-width: 600px) {
+    .container {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .info {
+      padding-right: 0;
+      max-width: 100%;
+    }
+    img {
+      width: 70%;
+    }
+  }
+
+  @media print {
+    .no-print {
+      display: none;
+    }
+  }
+</style>

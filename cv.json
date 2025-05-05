@@ -1,0 +1,310 @@
+{
+  "lastUpdate":"10-02-2025",
+  "basics": {
+    "banner":"angel",
+    "name": "Angel Rodriguez Moran",
+    "label": "",
+    "image": "https://media.licdn.com/dms/image/v2/D4E03AQELtw9HqNOayA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718265328995?e=1744848000&v=beta&t=-LRCFEy3M3oMjnF9Bj57waW-bPWLHtw_WbCb53L9GSU",
+    "email": "angel.rodriguez3rm@gmail.com",
+    "phone": "+34 645 969 975",
+    "url": "https://a--hrm.com/",
+    "summary": "Highly motivated Software Engineer student passionate about building innovative and meaningful solutions. Pursuing personal and professional development, with strong work ethic and an entrepreneur mindset.",
+    
+    "location": {
+      "address": "2712 Broadway St",
+      "postalCode": "ES 28007",
+      "city": "Madrid",
+      "countryCode": "",
+      "region": "Spain"
+    },
+    "profiles": [{
+      "network": "GitHub",
+      "username": "angx1",
+      "url": "https://github.com/angx1"
+    }, {
+      "network": "LinkedIn",
+      "username": "Angel Rodriguez Moran",
+      "url": "https://www.linkedin.com/in/%C3%A1ngel-rodr%C3%ADguez-mor%C3%A1n-274868301/"
+    }]
+  },
+  "work": [{
+    "name": "Banco de España",
+    "position": "Data Engineer Intern",
+    "url": "https://www.bde.es/wbe/es/",
+    "startDate": "2024-11-01",
+    "endDate": "2025-04-01",
+    "location": "Spain",
+    "summary": "Worked on a news analysis tool by implementing a data processing pipeline. Applied NLP and Latent Dirichlet Allocation (LDA) to extract key topics from news articles, providing valuable insights for the Operational Risk Department",
+    "highlights": [
+      
+    ]
+  },{
+    "name": "Rein Medical",
+    "position": "Intern Technitian",
+    "url": "https://reinmedical.com/en",
+    "startDate": "2022-01-01",
+    "endDate": "2024-01-01",
+    "location": "Spain",
+    "summary": "Bringed support on the repair and maintenance of medical IT equipment. As well as installation and configuration of new equipment in hospitals.",
+    "highlights": [
+      
+    ]
+  }],
+  "volunteer": [{
+    "organization": "Organization",
+    "position": "Volunteer",
+    "url": "https://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Description…",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education": [{
+    "institution": "Universidad Politecnica de Madrid",
+    "url": "",
+    "area": "",
+    "studyType": "Software Engineering Degree",
+    "startDate": "2021-09-01",
+    "endDate": null,
+    "score": "",
+    "description": "",
+    "location":"Madrid, Spain",
+    "courses": [
+      
+    ]
+  },{
+    "institution": "Colegio Santa Maria del Pilar",
+    "url": "",
+    "area": "",
+    "studyType": "Spanish Baccalaureate, Science and Technology",
+    "startDate": "2019-09-01",
+    "endDate": "2021-05-01",
+    "score": "",
+    "description": "",
+    "location":"Madrid, Spain",
+    "courses": [
+      
+    ]
+  },{
+    "institution": "CoderDojo Medialab Prado",
+    "url": "",
+    "area": "",
+    "studyType": "Computer Science and Programming Learning Program",
+    "startDate": "2013-02-01",
+    "endDate": "2017-06-01",
+    "score": "",
+    "description": "",
+    "location":"Madrid, Spain",
+    "courses": []
+  }],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "certificates": [{
+    "name": "Certificate",
+    "date": "2021-11-07",
+    "issuer": "Company",
+    "url": "https://certificate.com"
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "url": "https://publication.com",
+    "summary": "Description…"
+  }],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Advanced",
+      "keywords": [
+        "Version Control",
+        "GitHub",
+        "GitLab",
+        "Branching"
+      ]
+    },
+    {
+      "name": "Product Design",
+      "level": "Intermediate",
+      "keywords": [
+        "User Experience",
+        "Wireframes",
+        "Prototyping",
+        "Figma"
+      ]
+    },{
+      "name": "Communication",
+      "level": "Advanced",
+      "keywords": [
+        "Public Speaking",
+        "Active Listening",
+        "Presentation Skills",
+        "Conflict Resolution",
+        "Team Collaboration"
+      ]
+    },
+    {
+      "name": "Agile Methodologies",
+      "level": "Advanced",
+      "keywords": [
+        "Scrum",
+        "Kanban",
+        "Sprint Planning",
+        "Continuous Delivery"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Advanced",
+      "keywords": [
+        "Scripting",
+        "Automation",
+        "Django",
+        "Flask"
+      ]
+    },
+    {
+      "name": "LangChain",
+      "level": "Beginner",
+      "keywords": [
+        "AI Integration",
+        "LLMs",
+        "Python APIs",
+        "Automation"
+      ]
+    },{
+      "name": "SwiftUI",
+      "level": "Beginner",
+      "keywords": [
+        "AI Integration",
+        "LLMs",
+        "Python APIs",
+        "Automation"
+      ]
+    },
+    {
+      "name": "Rust",
+      "level": "Intermediate",
+      "keywords": [
+        "Memory Safety",
+        "Concurrency",
+        "Systems Programming"
+      ]
+    },
+    {
+      "name": "C/C++",
+      "level": "Advanced",
+      "keywords": [
+        "C",
+        "C++",
+        "Pointers",
+        "Memory Management",
+        "Data Structures"
+      ]
+    },
+    {
+      "name": "Java",
+      "level": "Advanced",
+      "keywords": [
+        "OOP",
+        "Spring",
+        "JVM",
+        "Multithreading"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Advanced",
+      "keywords": [
+        "React.js",
+        "Components",
+        "Hooks",
+        "JSX"
+      ]
+    },
+    {
+      "name": "Astro",
+      "level": "Intermediate",
+      "keywords": [
+        "Astro Framework",
+        "Static Site Generation",
+        "React Integration"
+      ]
+    },
+    {
+      "name": "Solidity",
+      "level": "Intermediate",
+      "keywords": [
+        "Smart Contracts",
+        "Blockchain",
+        "Ethereum",
+        "DApps"
+      ]
+    },{
+      "name": "SQL",
+      "level": "Intermediate",
+      "keywords": [
+        
+      ]
+      },{
+      "name": "Vector Databases",
+      "level": "Intermediate",
+      "keywords": [
+        
+      ]
+      }
+    ],
+    "languages": [{
+      "language": "Spanish",
+      "fluency": "Native speaker"
+      },{
+        "language": "English",
+        "fluency": "C1 Level"
+        }],
+      "interests": [{
+        "name": "Wildlife",
+        "keywords": [
+          "Ferrets",
+          "Unicorns"
+        ]
+        }],
+        "references": [{
+          "name": "Jane Doe",
+          "reference": "Reference…"
+          }],
+        "projects": [{
+            "name": "BioMad",
+            "isActive": true,
+            "startDate": "",
+            "endDate": "",
+    "description": "StartUp that aimed to provide circular solutions for organic waste based on bioplastics.",
+    "highlights": [
+      "Won Second Award at Madrid Telefónica's 2024 Hackaton"
+    ],
+    "url": "https://m.youtube.com/watch?v=5g9gIKanliA&ab_channel=javiprl"
+  },{
+    "name": "Menura",
+    "isActive": true,
+    "startDate": "",
+    "endDate": "",
+    "description": "AI powered study companion device that records, transcribes and summarizes lectures and meetings.",
+    "highlights": [
+    ],
+    "url": "https://github.com/msiciliag/menura.git"
+  }]
+}
