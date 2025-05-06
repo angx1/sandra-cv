@@ -2,9 +2,20 @@
 import Section from "@/components/Section.astro";
 
 import { basics } from "@cv";
+import { isRenderTemplateResult } from "astro/runtime/server/render/astro/render-template.js";
 const { summary } = basics;
 ---
 
 <Section tittle="About">
-  <p>{summary}</p>
+  {
+    summary.split("\n").map((line, index) => {
+      return(
+      <p>
+        {line}
+        <br/>
+        <br/>
+
+      </p>
+      )})
+  }
 </Section>
